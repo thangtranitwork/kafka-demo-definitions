@@ -3,8 +3,8 @@ package events
 import "github.com/thangtranitwork/kafka-demo-definitions/enum"
 
 type OrderItemCreated struct {
-	ItemID   uint `json:"item_id"`
-	Quantity int  `json:"quantity"`
+	ProductID uint `json:"product_id"`
+	Quantity  int  `json:"quantity"`
 }
 
 type OrderCreatedEvent struct {
